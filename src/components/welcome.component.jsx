@@ -1,5 +1,6 @@
 import React from "react";
-import { Jumbotron, Button } from "react-bootstrap";
+import { Button } from "react-bootstrap";
+import { LinkContainer } from "react-router-bootstrap";
 
 export default function Welcome() {
   return (
@@ -7,7 +8,9 @@ export default function Welcome() {
       <div className="cover-inner">
         <h1 className="header-text">Welcome</h1>
         <p>
-          <Button variant="primary">Learn more</Button>
+          <LinkContainer to="/projects">
+            <Button variant="primary">View my Projects</Button>
+          </LinkContainer>
         </p>
       </div>
     </div>

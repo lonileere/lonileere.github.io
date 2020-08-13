@@ -24,11 +24,6 @@
   color: white;
 }
 
-.profile-card {
-  min-width: 30px;
-  min-height: 300px;
-}
-
 .cover-inner {
   display: flex;
   flex-direction: column;
@@ -40,6 +35,11 @@
 .header-text {
   font-size: 15vw;
   font-weight: bold;
+}
+
+.body-text {
+  font-size: 2rem;
+  line-height: 3rem;
 }
 
 body,

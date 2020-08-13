@@ -18,7 +18,7 @@ export default function NavigationBar() {
           <LinkContainer to="/projects">
             <Nav.Link>Projects</Nav.Link>
           </LinkContainer>
-          <LinkContainer exact to="/">
+          <LinkContainer exact to="/contact">
             <Nav.Link>Contact</Nav.Link>
           </LinkContainer>
         </Nav>

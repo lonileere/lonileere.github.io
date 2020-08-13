@@ -10,6 +10,7 @@ import Projects from "./components/projects.component";
 import About from "./components/about.component";
 import Welcome from "./components/welcome.component";
 import Footer from "./components/footer.component";
+import Contact from "./components/contact.component";
 
 function App() {
   const location = useLocation();
@@ -34,6 +35,7 @@ function App() {
           <Switch location={location}>
             <Route path="/projects" exact component={Projects} />
             <Route path="/about" exact component={About} />
+            <Route path="/contact" exact component={Contact} />
             <Route path="/" exact component={Welcome} />
           </Switch>
         </animated.div>
