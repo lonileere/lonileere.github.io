@@ -9,7 +9,7 @@ export default function Welcome() {
         <h1 className="header-text">Welcome</h1>
         <p>
           <LinkContainer to="/projects">
-            <Button variant="primary">View my Projects</Button>
+            <Button variant="outline-dark">View my Projects</Button>
           </LinkContainer>
         </p>
       </div>

@@ -42,6 +42,9 @@
   line-height: 3rem;
 }
 
+.social-bar a {
+  color: black;
+}
 body,
 html {
   margin: 0;
