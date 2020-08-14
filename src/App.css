@@ -42,6 +42,11 @@
   line-height: 3rem;
 }
 
+.profile-card {
+  max-width: 100vw;
+  min-width: 300px;
+}
+
 .social-bar a {
   color: black;
 }

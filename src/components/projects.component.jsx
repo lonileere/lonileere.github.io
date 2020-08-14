@@ -17,9 +17,10 @@ export default function Projects() {
             <Thumbnail
               title="ThinkFit"
               img=""
-              description="Web based fitness application created using the MEAN stack"
+              description="Web based fitness application created using the MERN stack"
               source=""
               link="https://thinkfit.herokuapp.com"
+              disabled={true}
             />
             <Thumbnail
               title="Sample Project 2"
