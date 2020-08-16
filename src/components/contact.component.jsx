@@ -3,6 +3,7 @@ import { Card, CardDeck } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faFileAlt } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom";
 
 export default function Contact() {
   return (
@@ -12,30 +13,34 @@ export default function Contact() {
         <Card>
           <Card.Body>
             <Card.Title className="text-center">
-              <FontAwesomeIcon icon={faEnvelope} size="lg" />
+              <a href="mailto:l.onileere@gmail.com">
+                <FontAwesomeIcon icon={faEnvelope} size="4x" />
+              </a>
             </Card.Title>
             <Card.Title className="text-center">Email</Card.Title>
-            <Card.Text>l.onileere@gmail.com</Card.Text>
+            <Card.Text></Card.Text>
           </Card.Body>
         </Card>
         <Card>
           <Card.Body>
             <Card.Title className="text-center">
-              <FontAwesomeIcon icon={faLinkedin} size="lg" />
+              <a href="https://www.linkedin.com/in/lonileere/">
+                <FontAwesomeIcon icon={faLinkedin} size="4x" />
+              </a>
             </Card.Title>
             <Card.Title className="text-center">LinkedIn</Card.Title>
-            <Card.Text>
-              You can also contact me using my LinkedIn page here
-            </Card.Text>
+            <Card.Text></Card.Text>
           </Card.Body>
         </Card>
         <Card>
           <Card.Body>
             <Card.Title className="text-center">
-              <FontAwesomeIcon icon={faFileAlt} size="lg" />
+              <Link to="/files/resume.pdf" target="blank" download>
+                <FontAwesomeIcon icon={faFileAlt} size="4x" />
+              </Link>
             </Card.Title>
             <Card.Title className="text-center">Resume</Card.Title>
-            <Card.Text>You can download a copy of my resume here</Card.Text>
+            <Card.Text></Card.Text>
           </Card.Body>
         </Card>
       </CardDeck>

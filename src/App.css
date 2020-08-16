@@ -50,6 +50,19 @@
 .social-bar a {
   color: black;
 }
+
+.card a {
+  color: black;
+}
+
+.card a:hover {
+  color: #282c34;
+}
+
+.social-bar a:hover {
+  color: #282c34;
+}
+
 body,
 html {
   margin: 0;

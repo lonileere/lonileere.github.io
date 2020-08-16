@@ -17,19 +17,11 @@ export default function Footer() {
             <div className="social-bar">
               <a href="https://github.com/lonileere" target="_blank">
                 {" "}
-                <FontAwesomeIcon icon={faGithub} size="lg" />{" "}
-              </a>
-              <a href="https://twitter.com/leekasaur" target="_blank">
-                {" "}
-                <FontAwesomeIcon icon={faTwitter} size="lg" />{" "}
+                <FontAwesomeIcon icon={faGithub} size="2x" />{" "}
               </a>
               <a href="https://www.linkedin.com/in/lonileere/" target="_blank">
                 {" "}
-                <FontAwesomeIcon icon={faLinkedin} size="lg" />{" "}
-              </a>
-              <a href="https://www.facebook.com/l.onileere/" target="_blank">
-                {" "}
-                <FontAwesomeIcon icon={faFacebook} size="lg" />{" "}
+                <FontAwesomeIcon icon={faLinkedin} size="2x" />{" "}
               </a>
             </div>
           </Nav>

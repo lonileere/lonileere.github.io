@@ -15,7 +15,7 @@ export default function Thumbnail(props) {
           variant="light"
           disabled={props.disabled}
         >
-          Source Code
+          Repo
         </Button>
         <Button href={props.link} target="_blank" variant="outline-dark">
           Link to Project
