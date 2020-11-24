@@ -35,9 +35,9 @@ export default function Contact() {
         <Card>
           <Card.Body>
             <Card.Title className="text-center">
-              <Link to="/files/resume.pdf" target="blank" download>
+              <a href="https://drive.google.com/file/d/1O5l3er-QBtMF-EQBk8FGZ2TEhY0sqGqT/view?usp=sharing" target="_blank">
                 <FontAwesomeIcon icon={faFileAlt} size="4x" />
-              </Link>
+              </a>
             </Card.Title>
             <Card.Title className="text-center">Resume</Card.Title>
             <Card.Text></Card.Text>
