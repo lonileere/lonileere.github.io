@@ -31,7 +31,7 @@ function App() {
           <NavBar />
         </div>
         <div className="absolute bottom-0 right-0 w-full p-6">
-          <div className="max-w-sm font-bold text-right p-6 w-full ml-auto overflow-scroll max-h-[300px]">
+          <div className="max-w-sm font-bold text-right p-6 w-full ml-auto overflow-auto max-h-[300px]">
             <Outlet />
           </div>
         </div>
